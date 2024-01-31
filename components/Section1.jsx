@@ -24,7 +24,7 @@ export default function Section1() {
           </div>
         </div>
         <div className="elem2">
-          <h2>ALL WORK</h2>
+          <h2>ALL WORK!</h2>
           <h4>
             A Featured selection <br /> the latest work – <br /> of the last
             years.

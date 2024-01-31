@@ -1,23 +1,10 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  /* color-scheme: light dark; */
-  /* color: rgba(255, 255, 255, 0.87); */
-  /* background-color: #242424; */
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 body {
   margin: 0px;
   padding: 0px;
   background-color: #c4bdb3;
   color: black;
+  letter-spacing: -.03em;
 }
 .nav {
   background-color: #c4bdb3;
@@ -30,6 +17,9 @@ body {
 }
 .nm {
   font-family: Editorial New, sans-serif;
+}
+.nav .img{
+  width: 225px;
 }
 .img img {
   /* list-style: none; */
@@ -70,10 +60,12 @@ body {
 
 .elem{
   width: 445px;
+  height: 300px;
 }
+
 .elem2{
   width: 400px;
-  height: 325px;
+  height: 300px;
   border-left: 1px solid grey;
   border-right: 1px solid grey;
   display: flex;
@@ -82,7 +74,51 @@ body {
   flex-direction: column;
   text-align: center;
 }
+.elem2 h2{
+  font-family: canopee;
+  font-size: 67px;
+  margin: 0px;
+  margin-top: 10px;
+  letter-spacing: -.03em;
+  font-weight: 100;
 
+}
+
+.elem2 h4{
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  letter-spacing: -0.07em;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
 .text-head h4{
   font-family: canopee;
+  font-size: 25px;
+  margin:0px;
+  margin-top: 15px;
+  letter-spacing: -.03em;
+  font-weight: 100;
+
+}
+
+.text-head h4 span{
+  background-color: #e9482b;
+  padding: 2px;
+  border-radius: 4px;
+  font-size: 20px;
+  color: #d4dbe1;
+}
+.text p{
+  font-family: "Old Standard TT", serif;
+font-size: 18px;
+letter-spacing: -0.04em;
+}
+.elem2 p{
+  font-family: "Old Standard TT", serif;
+  letter-spacing: -0.04em;
+  font-size: 19px;
+  margin: 11px;
+
 }
