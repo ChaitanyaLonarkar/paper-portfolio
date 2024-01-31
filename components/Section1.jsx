@@ -29,7 +29,7 @@ export default function Section1() {
             A Featured selection <br /> the latest work – <br /> of the last
             years.
           </h4>
-          <p>TIP! Drag sideways to navigate</p>
+          <p><b>TIP!</b> Drag sideways to navigate</p>
         </div>
         <div className="elem elem3">
           <div className="img">
@@ -48,6 +48,9 @@ export default function Section1() {
             </p>
           </div>
         </div>
+      </div>
+      <div className="big">
+        <h1>MIRANDA</h1>
       </div>
     </>
   );
