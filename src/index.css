@@ -1,10 +1,9 @@
-
 body {
   margin: 0px;
   padding: 0px;
   background-color: #c4bdb3;
   color: black;
-  letter-spacing: -.03em;
+  letter-spacing: -0.03em;
   scroll-behavior: smooth;
   
 }
@@ -22,7 +21,7 @@ body {
   font-family: "Old Standard TT", serif;
   letter-spacing: -0.04em;
 }
-.nav .img{
+.nav .img {
   width: 225px;
 }
 .img img {
@@ -55,19 +54,19 @@ body {
 .elem .img img:hover {
   scale: 1.1;
 }
-.all-elem{
+.all-elem {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 40px 60px;
 }
 
-.elem{
+.elem {
   width: 445px;
   height: 300px;
 }
 
-.elem2{
+.elem2 {
   width: 400px;
   height: 300px;
   border-left: 1px solid grey;
@@ -78,17 +77,16 @@ body {
   flex-direction: column;
   text-align: center;
 }
-.elem2 h2{
+.elem2 h2 {
   font-family: canopee;
   font-size: 67px;
   margin: 0px;
   margin-top: 10px;
-  letter-spacing: -.03em;
+  letter-spacing: -0.03em;
   font-weight: 100;
-
 }
 
-.elem2 h4{
+.elem2 h4 {
   font-family: "Old Standard TT", serif;
   font-weight: 400;
   font-style: normal;
@@ -97,142 +95,265 @@ body {
   margin-top: 8px;
   margin-bottom: 0px;
 }
-.text-head h4{
+.text-head h4 {
   font-family: canopee;
   font-size: 25px;
-  margin:0px;
+  margin: 0px;
   margin-top: 15px;
-  letter-spacing: -.03em;
+  letter-spacing: -0.03em;
   font-weight: 100;
-
 }
 
-.text-head h4 span{
+.text-head h4 span {
   background-color: #e9482b;
   padding: 2px;
   border-radius: 4px;
   font-size: 20px;
   color: #d4dbe1;
 }
-.text p{
+.text p {
   font-family: "Old Standard TT", serif;
-font-size: 18px;
-letter-spacing: -0.04em;
+  font-size: 18px;
+  letter-spacing: -0.04em;
 }
-.elem2 p{
+.elem2 p {
   font-family: "Old Standard TT", serif;
   letter-spacing: -0.06em;
   font-size: 19px;
   margin: 11px;
-
 }
 
-.big{
-  background-color: #1C1B19;
+.big {
+  background-color: #1c1b19;
   margin: 0px 30px;
   padding: 0px 30px;
   height: 465px;
-
 }
-.big h1{
+.big h1 {
   font-size: 34.5vw;
-    color: #C4BDB3;
-    font-family: canopee;
-    margin: 0px;
-    letter-spacing: -0.03em;
-    font-weight: 100;
-    line-height: 480px;
+  color: #c4bdb3;
+  font-family: canopee;
+  margin: 0px;
+  letter-spacing: -0.03em;
+  font-weight: 100;
+  line-height: 480px;
 }
 
 /* section 2 css */
 
-.section2{
+.section2 {
   display: flex;
   gap: 50px;
-  margin: 50px 30px ;
+  margin: 50px 30px;
 }
 
-.section2 .left-elem{
+.section2 .left-elem {
   /* gap: 50px; */
   width: 30%;
   padding-right: 50px;
   border-right: 1px solid grey;
-
 }
-.left-up{
+.section2 .left-up {
   line-height: 150px;
   margin-bottom: 40px;
 }
-.left-up h2{
+.section2 .left-up h2 {
   font-family: canopee;
-    margin: 0px;
-    letter-spacing: -0.03em;
-    font-family: canopee;
-    margin: 0px;
-    font-size: 7.3em;
-    font-weight: 100;
-    letter-spacing: -0.04em;
-    color: #1C1B19;
-
+  margin: 0px;
+  letter-spacing: -0.03em;
+  font-family: canopee;
+  margin: 0px;
+  font-size: 7.3em;
+  font-weight: 100;
+  letter-spacing: -0.04em;
+  color: #1c1b19;
 }
-.left-up h2:nth-child(2){
+.section2 .left-up h2:nth-child(2) {
   font-size: 14.3em;
-
 }
-.left-text-botom{
+.left-text-botom {
   font-family: "Old Standard TT", serif;
-    letter-spacing: -0.04em;
-    font-size: 2.3em;
-    line-height: 37px;
-    color: #1C1B19;
-    margin-top: 30px;
+  letter-spacing: -0.04em;
+  font-size: 2.3em;
+  line-height: 37px;
+  color: #1c1b19;
+  margin-top: 30px;
 }
 
-.star-img img{
+.star-img img {
   width: 437px;
   border: 1px solid;
-
 }
 
-.section2 .right-elem{
+.section2 .right-elem {
   gap: 50px;
 }
 
-.right-img img{
+.right-img img {
   width: 920px;
   border: 1px solid;
-
 }
-.right-bottom{
+.right-bottom {
   margin-top: 20px;
 }
-.right-bottom h2{
+.right-bottom h2 {
   font-family: canopee;
   margin: 0px;
   font-size: 8em;
   font-weight: 100;
   letter-spacing: -0.04em;
-  color: #1C1B19;
-line-height: 120px;
+  color: #1c1b19;
+  line-height: 120px;
 }
 
-.section2-last-elem{
-display: flex;
-gap: 20px;
+.section2-last-elem {
+  display: flex;
+  gap: 20px;
 }
-.website{
-  background-color: #1C1B19;
+.website {
+  background-color: #1c1b19;
   margin: 0px 30px;
   padding: 0px 30px;
   height: 361px;
-
 }
-.website h1{
+.website h1 {
   font-size: 28.5vw;
-    color: #C4BDB3;
-    font-family: canopee;
-    margin: 0px;
-    letter-spacing: -0.03em;
-    font-weight: 100;
-    line-height: 372px;
+  color: #c4bdb3;
+  font-family: canopee;
+  margin: 0px;
+  letter-spacing: -0.03em;
+  font-weight: 100;
+  line-height: 372px;
+}
+/* section3 css */
+.outer {
+  display: flex;
+  margin: 50px 30px 30px;
+  gap: 50px;
+}
+.outer .left-elem {
+  /* width: 65%; */
+  padding-right: 50px;
+  border-right: 1px solid rgba(0, 0, 0, 0.666);
+  width: 908px;
+}
+.outer .left-elem .left-up {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+  height: 300px;
+}
+.outer .elem-1 {
+  padding-right: 20px;
+  border-right: 1px solid rgba(0, 0, 0, 0.666);
+}
+.outer .elem-1 h2 {
+  font-family: canopee;
+  font-size: 57px;
+  margin: 0px;
+  margin-top: 10px;
+  letter-spacing: -0.03em;
+  font-weight: 100;
+}
+
+.outer .elem-1 h4 {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  letter-spacing: -0.07em;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.outer .elem-1 p {
+  font-family: "Old Standard TT", serif;
+  letter-spacing: -0.06em;
+  font-size: 19px;
+}
+.outer .elem-2 {
+}
+
+.outer .elem-2 .img6 {
+  width: 420px;
+  height: 165px;
+  border: 1px solid;
+  overflow: hidden;
+}
+.outer .elem-2 img {
+  width: 430px;
+  transition: all 0.5s;
+}
+.outer .elem-2 img:hover {
+  /* width: 420px; */
+  scale: 1.1;
+}
+.outer .elem-2 h4 {
+  font-family: canopee;
+  font-size: 30px;
+  margin: 0px;
+  margin-top: 15px;
+  letter-spacing: -0.03em;
+  font-weight: 100;
+}
+.outer .elem-2 p {
+  font-family: "Old Standard TT", serif;
+  letter-spacing: -0.06em;
+  font-size: 19px;
+}
+.outer .left-botm {
+  /* width: 1000px; */
+}
+
+.left-botm img {
+  width: 910px;
+}
+
+.outer .right-elem h2 {
+  /* font-family: canopee; */
+  margin: 0px;
+  letter-spacing: -0.03em;
+  font-family: canopee;
+  margin: 0px;
+  font-size: 6.5em;
+  font-weight: 100;
+  letter-spacing: -0.04em;
+  color: #1c1b19;
+}
+.outer .right-elem h1 {
+  /* font-family: canopee; */
+  margin: 0px;
+  letter-spacing: -0.03em;
+  font-family: canopee;
+  margin: 0px;
+  font-size: 13.5em;
+  font-weight: 100;
+  letter-spacing: -0.04em;
+  color: #1c1b19;
+  line-height: 164px;
+}
+.outer .right-elem p {
+  font-family: "Old Standard TT", serif;
+  letter-spacing: -0.04em;
+  font-size: 2.3em;
+  line-height: 37px;
+  color: #1c1b19;
+  margin-top: 30px;
+}
+
+.outer .right-elem .all-work {
+  display: flex;
+  justify-content: center;
+}
+.outer .right-elem h4 {
+border: 1px solid;
+  font-family: canopee;
+  font-size: 67px;
+  margin: 0px;
+  margin-top: 10px;
+  letter-spacing: -0.03em;
+  font-weight: 100;
+  border-radius: 50%;
+    padding: 29px 80px;
+    cursor: pointer;
 }
