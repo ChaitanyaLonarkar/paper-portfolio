@@ -49,17 +49,43 @@ export default function Section3() {
             <h4>ALL WORK</h4>
           </div>
         </div>
-        <div className="outer-botm-elem">
-          <div className="horizontal">
-            <div>
-              <h3>Site of the day</h3>
-              <h2>AWARDS</h2>
-            </div>
-            <div className="num">
-              <h1>9</h1>
-            </div>
+      </div>
+      <div className="outer-botm-elem">
+        <div className="horizontal">
+          <div>
+            <h3>SITE OF THE DAY</h3>
+            <h2>AWARDS</h2>
           </div>
-          
+          <div className="num">
+            <h1>9</h1>
+          </div>
+        </div>
+        <div className="horizontal">
+          <div>
+            <h3>SITE OF THE MONTH</h3>
+            <h2>WINNERS</h2>
+          </div>
+          <div className="num">
+            <h1>1</h1>
+          </div>
+        </div>
+        <div className="horizontal">
+          <div>
+            <h3>FWA OF THE DAY</h3>
+            <h2>AWARDS</h2>
+          </div>
+          <div className="num">
+            <h1>6</h1>
+          </div>
+        </div>
+        <div className="horizontal">
+          <div>
+            <h3>ACCLAIMED</h3>
+            <h2>MENTIONS</h2>
+          </div>
+          <div className="num">
+            <h1>8</h1>
+          </div>
         </div>
       </div>
     </>
