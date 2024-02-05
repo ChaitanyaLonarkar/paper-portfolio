@@ -391,3 +391,72 @@ body {
 .outer-botm-elem .horizontal div h1 {
   font-size: 8em;
 }
+
+
+/* /section4 css */
+.section4-outer{
+  display: flex;
+  margin: 30px;
+  gap: 50px;
+}
+
+.section4-outer .left-elem .up {
+  display: flex;
+}
+
+.section4-outer .left-elem .up img {
+  width: 13em;
+  height: 22em;
+  border: 1px solid;
+}
+
+.section4-outer .left-elem .up h1 {
+  font-family: canopee;
+  font-size: 31em;
+  margin: 0px;
+  letter-spacing: -0.03em;
+  font-weight: 100;
+  line-height: 365px;
+}
+.section4-outer .left-elem .bottom h1
+  {
+  font-family: canopee;
+  font-size: 31em;
+  margin: 0px;
+  letter-spacing: -0.0559em;
+  font-weight: 100;
+  line-height: 365px;
+margin-top: 20px;
+}
+
+.section4-outer  .right-elem{
+  width: 47vw;
+  overflow: hidden;
+}
+
+.section4-outer  .right-elem img{
+  border: 1px  solid;
+  width: 50vw;
+}
+
+.section4-down-elem{
+  display: flex;
+  gap: 30px;
+  margin: 30px;
+
+}
+.section4-down-elem img{
+  width: 20vw;
+  height: 20em;
+  border: 1px solid;
+
+}
+
+.section4-down-elem h1{
+  font-family: canopee;
+    font-size: 28em;
+    margin: 0px;
+    letter-spacing: -0.04em;
+    font-weight: 100;
+    line-height: 332px;
+}
